@@ -7,6 +7,7 @@ export const LogoTitle = () => {
   );
 };
 
+
 export const ConditionScreen = ({ navigation, route }) => {
   const [count, setCount] = React.useState(0);
   React.useLayoutEffect(() => {
